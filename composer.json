@@ -1,0 +1,32 @@
+{
+    "name": "talhag3/pinterest-board-scraper",
+    "description": "Scrape images and information from Pinterest boards",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "TalhaG3\\PinterestScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "talhag3",
+            "email": "khokhar95@yahoo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit --testdox tests",
+        "coverage": "phpunit --coverage-html=coverage tests --coverage-clover=coverage.xml"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

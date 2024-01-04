@@ -8,7 +8,6 @@
 .phpunit.result.cache
 
 # Ignore Composer-related files
-composer.json
 composer.lock
 
 # Ignore PHPUnit configuration

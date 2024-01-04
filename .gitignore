@@ -1,0 +1,28 @@
+# Ignore the "coverage" directory
+/coverage
+
+# Ignore the "vendor" directory
+/vendor
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore Composer-related files
+composer.json
+composer.lock
+
+# Ignore PHPUnit configuration
+phpunit.xml
+
+# Ignore code coverage report
+coverage.xml
+
+# Ignore any files in the "src" directory generated during development
+/src/*.log
+/src/*.status
+/src/*.result
+
+# Ignore any files in the "tests" directory generated during development
+/tests/*.log
+/tests/*.status
+/tests/*.result
